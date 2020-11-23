@@ -9,7 +9,7 @@ import gql from 'graphql-tag';
 const query = `
     query {
         releases_by_status {
-            label: release_status
+            label: ReleaseStatus
             data: count
         }
     }`;

@@ -42,7 +42,16 @@ const Chart = ({ query }) => (
                         display: true,
                         reverse: true
                       },
-                      //fill: false
+                      scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }],
+                        xAxes: [{
+                            
+                        }]
+                    }
                     }
                   } />
         )
